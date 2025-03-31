@@ -1,5 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.homex.open_mail_app">
+  package="com.example.open_mail_app">
+    <application>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
     <queries>
         <intent>
             <action android:name="android.intent.action.VIEW" />
